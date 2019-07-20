@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<SOUI name="window" title="布局" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="300" height="300" margin="1,5,5,5" wndType="8" toolWindow="1">
+	<root cache="1" skin="_skin.sys.wnd.bkgnd">
+		<window pos="0,0,-0,-0" colorText="#000000">
+			<caption pos="0,0,-0,-1" focusable="1" drawfocusrect="0">
+				<text pos="5,5" name="txt_title" font="face:华文仿宋,size:18" text="数据修改" colorText="#ffc0cbff" />
+				<imgbtn skin="_skin.sys.btn.close" pos="-45,0" tip="close" animate="1" name="btn_close" />
+				<imgbtn skin="_skin.sys.btn.restore" pos="-83,0" show="0" animate="1" />
+				<text pos="32,80,@50,@24" text="文本：" />
+				<edit pos="[30,{,@96,@24" colorBkgnd="#FFFFFF" cueText="" colorText="#000000" name="edit_input1" />
+				<text pos="32,[20,@50,@24" text="数字：" />
+				<edit pos="[30,{,@96,@24" colorBkgnd="#FFFFFF" cueText="" colorText="#000000" name="edit_input2" />
+				<button pos="32,208" size="96,32" colorText="#000000" skin="_skin.sys.btn.normal" name="btn_ok">确定</button>
+				<button pos="[20,{" size="96,32" colorText="#000000" skin="_skin.sys.btn.normal" name="btn_cancel">取消</button>
+			</caption>
+		</window>
+	</root>
+</SOUI>
